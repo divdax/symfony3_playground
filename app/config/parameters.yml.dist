@@ -4,7 +4,7 @@
 parameters:
     database_host: 127.0.0.1
     database_port: 3306
-    database_name: easybills3
+    database_name: easybillsf3
     database_user: homestead
     database_password: secret
 

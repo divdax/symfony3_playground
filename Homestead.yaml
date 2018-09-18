@@ -8,14 +8,14 @@ keys:
 folders:
     -
         map: ./
-        to: /home/vagrant/code/easybills3
+        to: /home/vagrant/code/easybillsf3
         type: "nfs"
 sites:
     -
-        map: easybills3.test
-        to: /home/vagrant/code/easybills3/web
+        map: easybillsf3.test
+        to: /home/vagrant/code/easybillsf3/web
         type: "symfony2"
 databases:
-    - easybills3
-name: easybills3
-hostname: easybills3
+    - easybillsf3
+name: easybillsf3
+hostname: easybillsf3
