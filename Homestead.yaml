@@ -9,7 +9,7 @@ folders:
     -
         map: ./
         to: /home/vagrant/code/easybillsf3
-        type: "nfs"
+        #type: "nfs"
 sites:
     -
         map: easybillsf3.test
