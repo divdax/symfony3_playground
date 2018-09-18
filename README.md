@@ -13,6 +13,9 @@ Play with symfony3 in Homestead (vagrant)!
 * add `192.168.10.33 easybills3.test` in /etc/hosts
 * vagrant box add laravel/homestead
 * vagrant up
+* vagrant ssh
+* cd ~/code/easybills3/
+* composer install
 
 ## Usage
 
