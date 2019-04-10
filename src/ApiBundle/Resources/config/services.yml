@@ -1,0 +1,15 @@
+services:
+    api.cache:
+        class: Symfony\Component\Cache\Simple\FilesystemCache
+
+    api.easybill:
+        class: ApiBundle\Services\Api\easybill
+        arguments:
+            $api_key: '%env(EASYBILL_API_KEY)%'
+
+    api.document:
+        class: ApiBundle\Services\DocumentService
+        arguments: ["@api.easybill", '@api.cache']
+
+    document.csv.export:
+        class: ApiBundle\Services\DocumentCsvExport
